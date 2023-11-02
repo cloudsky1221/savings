@@ -1,0 +1,12 @@
+{
+    "name": "savings",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "content_scripts":[
+        {"matches":["https://*.amazon.in/*"],
+        "js":["index.js"]}
+    ],
+    "action":{
+        "default_popup": "index.html"
+    }
+}
